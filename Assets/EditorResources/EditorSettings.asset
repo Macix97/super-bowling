@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a863311c6043564594a3cb5e97c57b8, type: 3}
+  m_Name: EditorSettings
+  m_EditorClassIdentifier: 
+  _startScene:
+    _value: Start
+  _xrRigPrefab: {fileID: 5811781008476799852, guid: 79e864b5c0b39804e8dca2a0768b0e69, type: 3}
+  _ambientPrefab: {fileID: 8064459922144789546, guid: e95e97ecfdc9a4f409ccb72e19aeb53d, type: 3}
