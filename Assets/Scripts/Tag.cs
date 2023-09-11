@@ -11,6 +11,7 @@ public struct Tag
 
     public string Value => _value;
 
+#if UNITY_EDITOR
     [CustomPropertyDrawer(typeof(Tag))]
     private class PropertyDrawer : UnityEditor.PropertyDrawer
     {
@@ -22,4 +23,5 @@ public struct Tag
             if (EditorGUI.EndChangeCheck()) valueProperty.stringValue = value;
         }
     }
+#endif
 }
